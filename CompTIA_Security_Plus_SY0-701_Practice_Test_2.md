@@ -18,613 +18,713 @@
 
 ### Domain 1: General Security Concepts (Questions 1-12)
 
-**1.** Which of the following represents "something you have" in multi-factor authentication?
-A) PIN
-B) Smart card
-C) Retinal scan
-D) Voice recognition
+1. What is the primary goal of confidentiality in the CIA triad?
 
-**2.** What does the "A" in the CIA triad represent?
-A) Authentication
-B) Authorization
-C) Availability
-D) Auditing
+- A. Ensuring data is not modified
+- B. Ensuring data is accessible when needed
+- C. Ensuring data is only accessible to authorized individuals
+- D. Ensuring data can be recovered after loss
 
-**3.** Which type of security control prevents incidents from occurring?
-A) Preventive
-B) Detective
-C) Corrective
-D) Compensating
+2. Which of the following is an example of multi-factor authentication?
 
-**4.** In a Zero Trust model, what is the default stance toward network traffic?
-A) Trust all internal traffic
-B) Trust based on source IP
-C) Deny all traffic by default
-D) Allow all encrypted traffic
+- A. Username and password
+- B. Password and security question
+- C. Smart card and PIN
+- D. Two different passwords
 
-**5.** What is the primary benefit of implementing security awareness training?
-A) Reduce technology costs
-B) Improve user behavior
-C) Increase system performance
-D) Simplify security procedures
+3. What is the main purpose of a compensating control?
 
-**6.** Which physical security control is designed to delay an attacker?
-A) Motion sensors
-B) Bollards
-C) Security cameras
-D) Access badges
+- A. To replace a failed control
+- B. To provide additional security when primary controls are insufficient
+- C. To reduce the cost of security
+- D. To simplify security management
 
-**7.** What is the purpose of file integrity monitoring (FIM)?
-A) Backup critical files
-B) Detect unauthorized file changes
-C) Compress large files
-D) Monitor file access
+4. Which security control type is employee training?
 
-**8.** Which principle requires that users must be granted access explicitly?
-A) Implicit deny
-B) Least privilege
-C) Separation of duties
-D) Need to know
+- A. Technical
+- B. Physical
+- C. Administrative
+- D. Operational
 
-**9.** What is the main characteristic of a corrective security control?
-A) Prevents incidents
-B) Detects incidents
-C) Responds to incidents
-D) Monitors incidents
+5. What does "something you are" refer to in authentication factors?
 
-**10.** Which authentication method uses behavioral characteristics?
-A) Something you know
-B) Something you are
-C) Something you have
-D) Something you do
+- A. Password
+- B. Smart card
+- C. Biometric
+- D. Security token
 
-**11.** What is the primary purpose of technical change management?
-A) Document all changes
-B) Minimize change-related risks
-C) Reduce change costs
-D) Speed up implementation
+6. Which principle requires that individuals cannot deny performing an action?
 
-**12.** Which security model focuses on data classification and clearance levels?
-A) Bell-LaPadula
-B) Biba
-C) Clark-Wilson
-D) Brewer-Nash
+- A. Authentication
+- B. Authorization
+- C. Accountability
+- D. Non-repudiation
+
+7. What is the primary benefit of Zero Trust architecture?
+
+- A. Reduced security costs
+- B. Simplified network management
+- C. Continuous verification of trust
+- D. Improved network performance
+
+8. Which of the following is a preventive security control?
+
+- A. Security cameras
+- B. Access controls
+- C. Audit logs
+- D. Backup systems
+
+9. What is the purpose of data classification?
+
+- A. To organize data by date
+- B. To determine appropriate security controls
+- C. To improve data retrieval speed
+- D. To reduce storage costs
+
+10. Which authentication method is most secure?
+
+- A. Single-factor authentication
+- B. Two-factor authentication
+- C. Multi-factor authentication
+- D. Passwordless authentication
+
+11. What is the main characteristic of a detective control?
+
+- A. Prevents security incidents
+- B. Identifies security incidents
+- C. Corrects security issues
+- D. Deters malicious activity
+
+12. Which principle ensures that no single person can compromise security?
+
+- A. Least privilege
+- B. Separation of duties
+- C. Job rotation
+- D. Dual control
 
 ### Domain 2: Threats, Vulnerabilities, and Mitigations (Questions 13-34)
 
-**13.** Which threat actor is most likely to be motivated by political ideology?
-A) Script kiddie
-B) Hacktivist
-C) Organized crime
-D) Insider threat
+13. What is the primary motivation of nation-state threat actors?
 
-**14.** What is vishing?
-A) Voice phishing
-B) Video phishing
-C) Virtual phishing
-D) Virus phishing
+- A. Financial gain
+- B. Political objectives
+- C. Personal recognition
+- D. Competitive advantage
 
-**15.** Which attack technique involves sending massive amounts of traffic to overwhelm a target?
-A) Man-in-the-middle
-B) SQL injection
-C) Distributed Denial of Service (DDoS)
-D) Cross-site scripting
+14. Which attack technique involves sending fraudulent emails to steal credentials?
 
-**16.** What is a supply chain vulnerability?
-A) Weakness in shipping processes
-B) Risk in third-party components
-C) Flaw in payment systems
-D) Error in inventory management
+- A. Vishing
+- B. Smishing
+- C. Phishing
+- D. Pharming
 
-**17.** Which malware type is specifically designed to steal information?
-A) Virus
-B) Worm
-C) Trojan
-D) Spyware
+15. What is a characteristic of fileless malware?
 
-**18.** What is the primary characteristic of a logic bomb?
-A) Spreads automatically
-B) Activates based on conditions
-C) Encrypts files
-D) Steals credentials
+- A. It creates many files on the system
+- B. It operates in memory without writing to disk
+- C. It only affects file systems
+- D. It cannot be detected by antivirus
 
-**19.** Which attack targets web application input fields?
-A) Buffer overflow
-B) SQL injection
-C) DDoS
-D) Man-in-the-middle
+16. Which threat actor is most likely to use insider knowledge?
 
-**20.** What is the purpose of threat modeling?
-A) Create malware
-B) Identify potential threats
-C) Monitor network traffic
-D) Train security staff
+- A. Nation-state
+- B. Organized crime
+- C. Hacktivist
+- D. Disgruntled employee
 
-**21.** Which social engineering attack involves following someone through a secure door?
-A) Phishing
-B) Baiting
-C) Tailgating
-D) Pretexting
+17. What is the primary purpose of a threat model?
 
-**22.** What is a zero-day exploit?
-A) An exploit that causes no damage
-B) An exploit for unknown vulnerabilities
-C) An exploit that works immediately
-D) An exploit that costs nothing
+- A. To identify potential threats
+- B. To calculate security costs
+- C. To train security personnel
+- D. To audit security controls
 
-**23.** Which attack vector uses malicious email attachments?
-A) Phishing
-B) Smishing
-C) Vishing
-D) Pharming
+18. Which attack involves overwhelming a system with traffic?
 
-**24.** What is the primary goal of reconnaissance in an attack?
-A) Install malware
-B) Gather information
-C) Destroy data
-D) Disrupt services
+- A. SQL injection
+- B. Cross-site scripting
+- C. Denial of service
+- D. Buffer overflow
 
-**25.** Which technique involves redirecting DNS queries to malicious servers?
-A) ARP spoofing
-B) DNS poisoning
-C) MAC flooding
-D) IP spoofing
+19. What is the main goal of social engineering?
 
-**26.** What is a polymorphic virus?
-A) A virus that affects multiple platforms
-B) A virus that changes its code
-C) A virus that spreads multiple ways
-D) A virus that targets multiple users
+- A. To improve social media presence
+- B. To manipulate people into divulging information
+- C. To enhance user experience
+- D. To automate social processes
 
-**27.** Which attack specifically targets mobile devices through SMS?
-A) Phishing
-B) Vishing
-C) Smishing
-D) Pharming
+20. Which vulnerability is commonly found in web applications?
 
-**28.** What is the primary purpose of a botnet?
-A) Legitimate distributed computing
-B) Coordinated malicious activities
-C) Network load balancing
-D) Backup and recovery
+- A. Buffer overflow
+- B. Cross-site scripting (XSS)
+- C. DLL injection
+- D. Race condition
 
-**29.** Which vulnerability is most common in buffer overflow attacks?
-A) Input validation
-B) Memory management
-C) Access control
-D) Network segmentation
+21. What is pretexting?
 
-**30.** What is credential harvesting?
-A) Generating new passwords
-B) Collecting login credentials
-C) Storing passwords securely
-D) Validating user identity
+- A. Sending malicious emails
+- B. Creating a false scenario to obtain information
+- C. Leaving infected USB drives
+- D. Following someone through a door
 
-**31.** Which attack technique involves injecting malicious code into web pages?
-A) SQL injection
-B) Cross-site scripting (XSS)
-C) Buffer overflow
-D) Directory traversal
+22. Which attack method involves modifying DNS records?
 
-**32.** What is the primary characteristic of Advanced Persistent Threats (APTs)?
-A) Quick and noisy attacks
-B) Stealthy, long-term presence
-C) Automated attack tools
-D) Single-vector attacks
+- A. ARP spoofing
+- B. DNS poisoning
+- C. IP spoofing
+- D. MAC spoofing
 
-**33.** Which malware family is known for cryptocurrency mining?
-A) Ransomware
-B) Keylogger
-C) Cryptominer
-D) Rootkit
+23. What is the primary characteristic of an Advanced Persistent Threat (APT)?
 
-**34.** What is a watering hole attack targeting?
-A) Water supply systems
-B) Frequently visited websites
-C) Wireless networks
-D) Physical locations
+- A. Quick execution
+- B. Low sophistication
+- C. Long-term presence
+- D. Single-purpose attack
+
+24. Which malware type is designed to steal information?
+
+- A. Virus
+- B. Worm
+- C. Trojan
+- D. Spyware
+
+25. What is a common indicator of a compromised system?
+
+- A. High CPU usage
+- B. Unusual network traffic
+- C. Slow performance
+- D. All of the above
+
+26. Which attack targets the supply chain?
+
+- A. Watering hole
+- B. Spear phishing
+- C. Software supply chain attack
+- D. USB drop attack
+
+27. What is the primary purpose of threat intelligence?
+
+- A. To prosecute attackers
+- B. To inform security decisions
+- C. To develop new attacks
+- D. To train security staff
+
+28. Which technique is used to hide malware from detection?
+
+- A. Encryption
+- B. Obfuscation
+- C. Polymorphism
+- D. All of the above
+
+29. What is a zero-day exploit?
+
+- A. An exploit that works for zero days
+- B. An exploit for unknown vulnerabilities
+- C. An exploit that costs zero dollars
+- D. An exploit with zero impact
+
+30. Which attack method involves intercepting and modifying data?
+
+- A. Replay attack
+- B. Man-in-the-middle attack
+- C. Injection attack
+- D. Brute force attack
+
+31. What is the main purpose of a honeypot?
+
+- A. To store sensitive data
+- B. To attract and detect attackers
+- C. To backup system files
+- D. To improve network performance
+
+32. Which threat actor is motivated by ideological beliefs?
+
+- A. Nation-state
+- B. Organized crime
+- C. Hacktivist
+- D. Script kiddie
+
+33. What is business email compromise (BEC)?
+
+- A. Hacking email servers
+- B. Fraudulent email schemes targeting businesses
+- C. Encrypting business emails
+- D. Stealing email databases
+
+34. Which attack involves using stolen credentials on multiple sites?
+
+- A. Password spraying
+- B. Credential stuffing
+- C. Brute force
+- D. Dictionary attack
 
 ### Domain 3: Security Architecture (Questions 35-52)
 
-**35.** Which network architecture provides the best security for internal resources?
-A) Flat network
-B) Segmented network
-C) Mesh network
-D) Hub and spoke
+35. What is the primary purpose of network segmentation?
 
-**36.** What is the primary purpose of a Web Application Firewall (WAF)?
-A) Monitor network traffic
-B) Protect web applications
-C) Encrypt web traffic
-D) Balance web server loads
+- A. To improve network performance
+- B. To isolate network resources
+- C. To reduce network costs
+- D. To simplify network management
 
-**37.** Which cloud deployment model offers the highest level of control?
-A) Public cloud
-B) Private cloud
-C) Hybrid cloud
-D) Community cloud
+36. Which protocol provides secure remote access?
 
-**38.** What is the main advantage of using Software-Defined Networking (SDN)?
-A) Reduced hardware costs
-B) Centralized network control
-C) Improved security
-D) Faster network speeds
+- A. Telnet
+- B. SSH
+- C. HTTP
+- D. FTP
 
-**39.** Which technology enables secure communication over untrusted networks?
-A) NAT
-B) VPN
-C) Proxy
-D) Load balancer
+37. What is the main function of a proxy server?
 
-**40.** What is the primary benefit of implementing network access control (NAC)?
-A) Faster network speeds
-B) Device compliance enforcement
-C) Reduced network costs
-D) Simplified management
+- A. To store web pages
+- B. To act as an intermediary for requests
+- C. To encrypt network traffic
+- D. To manage IP addresses
 
-**41.** Which data state requires encryption during transmission?
-A) Data at rest
-B) Data in use
-C) Data in motion
-D) Data in storage
+38. Which cloud service model provides the most user control?
 
-**42.** What is the purpose of database activity monitoring (DAM)?
-A) Backup database content
-B) Monitor database access
-C) Optimize database performance
-D) Encrypt database files
+- A. SaaS
+- B. PaaS
+- C. IaaS
+- D. FaaS
 
-**43.** Which high availability technique distributes traffic across multiple servers?
-A) Clustering
-B) Load balancing
-C) Failover
-D) Replication
+39. What is the purpose of a bastion host?
 
-**44.** What is the primary purpose of a disaster recovery site?
-A) Backup storage
-B) Business continuity
-C) Load balancing
-D) Development testing
+- A. To store backups
+- B. To provide secure access to internal networks
+- C. To monitor network traffic
+- D. To manage user accounts
 
-**45.** Which RAID level provides both performance and fault tolerance?
-A) RAID 0
-B) RAID 1
-C) RAID 5
-D) RAID 6
+40. Which wireless security protocol is most secure?
 
-**46.** What is the main benefit of using a reverse proxy?
-A) Hide client identities
-B) Protect backend servers
-C) Improve client performance
-D) Reduce bandwidth usage
+- A. WEP
+- B. WPA
+- C. WPA2
+- D. WPA3
 
-**47.** Which security zone should contain publicly accessible services?
-A) Internal network
-B) DMZ
-C) Management network
-D) Guest network
+41. What is the main benefit of using a VPN?
 
-**48.** What is the primary purpose of infrastructure as code (IaC)?
-A) Reduce hardware costs
-B) Automate infrastructure deployment
-C) Improve system performance
-D) Enhance security
+- A. Faster internet speeds
+- B. Secure remote connectivity
+- C. Reduced bandwidth usage
+- D. Improved website performance
 
-**49.** Which virtualization component provides isolation between virtual machines?
-A) Hypervisor
-B) Container
-C) Virtual switch
-D) Virtual disk
+42. Which type of firewall provides the highest level of security?
 
-**50.** What is the main advantage of using cloud-native security tools?
-A) Lower costs
-B) Better integration
-C) Improved performance
-D) Easier management
+- A. Packet filtering
+- B. Stateful inspection
+- C. Application-layer proxy
+- D. Circuit-level gateway
 
-**51.** Which architecture approach divides applications into small, independent services?
-A) Monolithic
-B) Service-oriented
-C) Microservices
-D) Component-based
+43. What is the primary purpose of a load balancer?
 
-**52.** What is the primary purpose of a security gateway?
-A) Authenticate users
-B) Control network traffic
-C) Encrypt data
-D) Monitor activities
+- A. To reduce network traffic
+- B. To distribute workload across servers
+- C. To encrypt data transmission
+- D. To monitor server performance
+
+44. Which secure protocol should replace HTTP?
+
+- A. HTTPS
+- B. SFTP
+- C. SSH
+- D. TLS
+
+45. What is the main security advantage of containerization?
+
+- A. Better performance
+- B. Application isolation
+- C. Reduced costs
+- D. Simplified deployment
+
+46. Which authentication protocol is commonly used with RADIUS?
+
+- A. LDAP
+- B. Kerberos
+- C. EAP
+- D. TACACS+
+
+47. What is the purpose of a web application firewall (WAF)?
+
+- A. To protect against network attacks
+- B. To protect against application-layer attacks
+- C. To improve website performance
+- D. To manage SSL certificates
+
+48. Which database security control prevents unauthorized data access?
+
+- A. Encryption
+- B. Access control
+- C. Backup and recovery
+- D. Performance tuning
+
+49. What is the main security concern with IoT devices?
+
+- A. High power consumption
+- B. Weak security controls
+- C. Limited functionality
+- D. High cost
+
+50. Which virtualization security technology provides isolation?
+
+- A. Hypervisor
+- B. Virtual machine
+- C. Container
+- D. All of the above
+
+51. What is the purpose of network access control (NAC)?
+
+- A. To control internet access
+- B. To enforce security policies on devices
+- C. To monitor network performance
+- D. To manage IP addresses
+
+52. Which secure coding practice prevents injection attacks?
+
+- A. Input validation
+- B. Output encoding
+- C. Error handling
+- D. Code review
 
 ### Domain 4: Security Operations (Questions 53-80)
 
-**53.** What is the first step in the incident response process?
-A) Containment
-B) Preparation
-C) Identification
-D) Recovery
+53. What is the primary purpose of incident response?
 
-**54.** Which wireless security feature helps prevent unauthorized access points?
-A) WPA3
-B) Rogue AP detection
-C) MAC filtering
-D) SSID hiding
+- A. To prevent all security incidents
+- B. To minimize damage from security incidents
+- C. To prosecute attackers
+- D. To train security personnel
 
-**55.** What is the primary purpose of configuration management?
-A) Monitor system performance
-B) Maintain system consistency
-C) Backup system data
-D) Encrypt system files
+54. Which phase of incident response involves containing the threat?
 
-**56.** Which vulnerability scanning approach provides the most accurate results?
-A) Unauthenticated scanning
-B) Authenticated scanning
-C) External scanning
-D) Internal scanning
+- A. Preparation
+- B. Detection and Analysis
+- C. Containment, Eradication, and Recovery
+- D. Post-Incident Activity
 
-**57.** What is the main benefit of security automation?
-A) Reduce human errors
-B) Lower security costs
-C) Improve user experience
-D) Increase system performance
+55. What is the main function of a SIEM system?
 
-**58.** Which log analysis technique helps identify security incidents?
-A) Log compression
-B) Log correlation
-C) Log archiving
-D) Log formatting
+- A. To prevent security incidents
+- B. To collect and analyze security events
+- C. To backup security logs
+- D. To train security staff
 
-**59.** What is the primary advantage of implementing federation?
-A) Improved security
-B) Reduced complexity
-C) Cross-domain authentication
-D) Centralized management
+56. Which vulnerability assessment technique uses automated tools?
 
-**60.** Which biometric authentication method is most accurate?
-A) Fingerprint
-B) Iris scan
-C) Voice recognition
-D) Facial recognition
+- A. Manual testing
+- B. Code review
+- C. Vulnerability scanning
+- D. Penetration testing
 
-**61.** What is the purpose of just-in-time (JIT) access?
-A) Permanent access control
-B) Temporary access provision
-C) Automated access removal
-D) Role-based access control
+57. What is the primary difference between vulnerability scanning and penetration testing?
 
-**62.** Which phase of incident response involves learning from the incident?
-A) Preparation
-B) Containment
-C) Recovery
-D) Lessons learned
+- A. Cost
+- B. Time required
+- C. Depth of testing
+- D. Tools used
 
-**63.** What is the primary purpose of chain of custody?
-A) Secure evidence handling
-B) Encrypt evidence
-C) Backup evidence
-D) Analyze evidence
+58. Which forensic principle ensures evidence integrity?
 
-**64.** Which technology is most effective for detecting unknown threats?
-A) Signature-based detection
-B) Behavior-based detection
-C) Heuristic analysis
-D) Anomaly detection
+- A. Chain of custody
+- B. Legal authority
+- C. Data recovery
+- D. System imaging
 
-**65.** What is the main advantage of using threat intelligence feeds?
-A) Reduce security costs
-B) Improve threat detection
-C) Simplify security management
-D) Increase system performance
+59. What is the purpose of log analysis?
 
-**66.** Which security testing approach simulates real-world attacks?
-A) Vulnerability scanning
-B) Penetration testing
-C) Security auditing
-D) Compliance testing
+- A. To save storage space
+- B. To identify security incidents
+- C. To improve system performance
+- D. To reduce network traffic
 
-**67.** What is the primary purpose of a security operations center (SOC)?
-A) Develop security policies
-B) Monitor security events
-C) Implement security controls
-D) Train security personnel
+60. Which backup type provides the fastest recovery?
 
-**68.** Which metric measures the time between incident detection and response?
-A) MTTR
-B) MTTD
-C) MTBF
-D) MTTF
+- A. Full backup
+- B. Incremental backup
+- C. Differential backup
+- D. Snapshot backup
 
-**69.** What is the benefit of implementing security orchestration?
-A) Reduce security tools
-B) Automate security processes
-C) Improve user experience
-D) Lower security costs
+61. What is the main purpose of a disaster recovery plan?
 
-**70.** Which technology provides centralized log management?
-A) SIEM
-B) IDS
-C) Firewall
-D) Proxy
+- A. To prevent disasters
+- B. To respond to disasters
+- C. To train employees
+- D. To reduce insurance costs
 
-**71.** What is the primary goal of security training?
-A) Reduce security costs
-B) Improve security awareness
-C) Increase productivity
-D) Simplify procedures
+62. Which security testing method simulates real attacks?
 
-**72.** Which backup method provides point-in-time recovery?
-A) Full backup
-B) Incremental backup
-C) Snapshot backup
-D) Differential backup
+- A. Vulnerability scanning
+- B. Penetration testing
+- C. Code review
+- D. Configuration review
 
-**73.** What is the main advantage of using managed security services?
-A) Lower costs
-B) Specialized expertise
-C) Better performance
-D) Simplified management
+63. What is the purpose of patch management?
 
-**74.** Which assessment type evaluates security from an attacker's perspective?
-A) Vulnerability assessment
-B) Penetration testing
-C) Security audit
-D) Compliance review
+- A. To improve performance
+- B. To fix security vulnerabilities
+- C. To add new features
+- D. To reduce support costs
 
-**75.** What is the purpose of security baseline monitoring?
-A) Detect configuration changes
-B) Monitor system performance
-C) Backup system data
-D) Encrypt system files
+64. Which identity management process removes user access?
 
-**76.** Which technology helps prevent unauthorized data disclosure?
-A) Firewalls
-B) Data loss prevention
-C) Intrusion detection
-D) Antivirus software
+- A. Provisioning
+- B. Deprovisioning
+- C. Authentication
+- D. Authorization
 
-**77.** What is the primary benefit of network segmentation?
-A) Improved performance
-B) Reduced attack surface
-C) Lower costs
-D) Simplified management
+65. What is the main benefit of security automation?
 
-**78.** Which access control method uses subject and object labels?
-A) Role-based access control
-B) Discretionary access control
-C) Mandatory access control
-D) Attribute-based access control
+- A. Reduced costs
+- B. Improved response times
+- C. Better user experience
+- D. Simplified management
 
-**79.** What is the main purpose of security dashboards?
-A) Monitor security metrics
-B) Configure security tools
-C) Train security staff
-D) Document security policies
+66. Which monitoring technique identifies unusual behavior?
 
-**80.** Which technology provides real-time threat detection?
-A) Antivirus software
-B) Intrusion detection system
-C) Firewall
-D) Proxy server
+- A. Signature-based detection
+- B. Anomaly-based detection
+- C. Heuristic detection
+- D. Rule-based detection
+
+67. What is the purpose of threat hunting?
+
+- A. To prevent threats
+- B. To actively search for threats
+- C. To document threats
+- D. To train hunters
+
+68. Which recovery metric measures acceptable downtime?
+
+- A. RTO (Recovery Time Objective)
+- B. RPO (Recovery Point Objective)
+- C. MTTR (Mean Time to Recovery)
+- D. MTTD (Mean Time to Detection)
+
+69. What is the main purpose of configuration management?
+
+- A. To improve performance
+- B. To maintain security baselines
+- C. To reduce costs
+- D. To simplify administration
+
+70. Which data loss prevention (DLP) method monitors email?
+
+- A. Network DLP
+- B. Endpoint DLP
+- C. Storage DLP
+- D. Cloud DLP
+
+71. What is the purpose of security orchestration?
+
+- A. To coordinate security tools
+- B. To play security music
+- C. To train security teams
+- D. To audit security controls
+
+72. Which vulnerability management process prioritizes fixes?
+
+- A. Scanning
+- B. Assessment
+- C. Remediation
+- D. Reporting
+
+73. What is the main benefit of continuous monitoring?
+
+- A. Reduced costs
+- B. Real-time visibility
+- C. Improved performance
+- D. Simplified management
+
+74. Which forensic technique preserves evidence?
+
+- A. System imaging
+- B. Data recovery
+- C. Log analysis
+- D. Network monitoring
+
+75. What is the purpose of a security playbook?
+
+- A. To entertain security staff
+- B. To document procedures
+- C. To train new employees
+- D. To store policies
+
+76. Which backup verification method ensures data integrity?
+
+- A. Test restores
+- B. Backup logs
+- C. Storage monitoring
+- D. Backup scheduling
+
+77. What is the main purpose of security metrics?
+
+- A. To measure security effectiveness
+- B. To train security staff
+- C. To document incidents
+- D. To audit controls
+
+78. Which incident response team role coordinates activities?
+
+- A. Incident handler
+- B. Incident commander
+- C. Technical lead
+- D. Communications coordinator
+
+79. What is the purpose of evidence preservation?
+
+- A. To save storage space
+- B. To maintain legal admissibility
+- C. To improve performance
+- D. To reduce costs
+
+80. Which security assessment method reviews processes?
+
+- A. Vulnerability scanning
+- B. Penetration testing
+- C. Audit
+- D. Code review
 
 ### Domain 5: Security Program Management and Oversight (Questions 81-100)
 
-**81.** What is the primary purpose of a security program?
-A) Implement security tools
-B) Manage security risks
-C) Train security personnel
-D) Audit security controls
+81. What is the primary purpose of a security governance framework?
 
-**82.** Which risk treatment strategy involves transferring risk to another party?
-A) Risk acceptance
-B) Risk avoidance
-C) Risk mitigation
-D) Risk sharing
+- A. To implement security controls
+- B. To provide security oversight
+- C. To train security personnel
+- D. To respond to incidents
 
-**83.** What is the main difference between qualitative and quantitative risk analysis?
-A) Qualitative uses numbers, quantitative uses descriptions
-B) Qualitative uses descriptions, quantitative uses numbers
-C) There is no difference
-D) Qualitative is faster, quantitative is more accurate
+82. Which risk management approach uses numerical values?
 
-**84.** Which document provides high-level security direction?
-A) Security procedure
-B) Security policy
-C) Security standard
-D) Security guideline
+- A. Qualitative
+- B. Quantitative
+- C. Hybrid
+- D. Descriptive
 
-**85.** What is the primary purpose of a risk register?
-A) Calculate risk values
-B) Track identified risks
-C) Implement risk controls
-D) Train risk managers
+83. What is the main purpose of a business impact analysis?
 
-**86.** Which regulation focuses on personal data protection in the EU?
-A) HIPAA
-B) SOX
-C) GDPR
-D) PCI DSS
+- A. To identify critical business processes
+- B. To calculate security costs
+- C. To train employees
+- D. To audit controls
 
-**87.** What is the main benefit of conducting security assessments?
-A) Reduce security costs
-B) Identify security gaps
-C) Improve system performance
-D) Train security personnel
+84. Which compliance framework applies to healthcare organizations?
 
-**88.** Which audit type provides the most objective results?
-A) Self-assessment
-B) Internal audit
-C) External audit
-D) Management review
+- A. PCI DSS
+- B. SOX
+- C. HIPAA
+- D. GDPR
 
-**89.** What is the purpose of a service level agreement (SLA)?
-A) Define security requirements
-B) Establish performance expectations
-C) Document security policies
-D) Manage vendor relationships
+85. What is the purpose of security awareness training?
 
-**90.** Which privacy principle requires minimizing data collection?
-A) Purpose limitation
-B) Data minimization
-C) Accuracy
-D) Transparency
+- A. To teach technical skills
+- B. To change security behavior
+- C. To audit employee knowledge
+- D. To document compliance
 
-**91.** What is the primary goal of phishing simulation training?
-A) Reduce training costs
-B) Test user awareness
-C) Improve email security
-D) Identify vulnerable users
+86. Which vendor management practice reduces security risk?
 
-**92.** Which metric measures security program maturity?
-A) Number of incidents
-B) Security investment
-C) Control effectiveness
-D) Risk reduction
+- A. Cost negotiation
+- B. Performance monitoring
+- C. Security assessments
+- D. Contract management
 
-**93.** What is the purpose of a security committee?
-A) Implement security controls
-B) Provide security oversight
-C) Conduct security assessments
-D) Train security personnel
+87. What is the main purpose of a security policy?
 
-**94.** Which factor determines data retention requirements?
-A) Storage costs
-B) Legal requirements
-C) Business needs
-D) Technical capabilities
+- A. To implement controls
+- B. To define security requirements
+- C. To train employees
+- D. To document incidents
 
-**95.** What is the main advantage of using security standards?
-A) Reduce implementation costs
-B) Provide consistent practices
-C) Improve system performance
-D) Simplify security procedures
+88. Which security budget approach is most effective?
 
-**96.** Which training method is most effective for security awareness?
-A) Online training
-B) Classroom training
-C) Hands-on training
-D) Simulation training
+- A. Historical spending
+- B. Risk-based budgeting
+- C. Percentage of revenue
+- D. Industry benchmarks
 
-**97.** What is the primary purpose of security metrics?
-A) Reduce security costs
-B) Measure security effectiveness
-C) Improve system performance
-D) Train security personnel
+89. What is the purpose of privacy impact assessments?
 
-**98.** Which factor is most important in security control selection?
-A) Cost
-B) Risk reduction
-C) Ease of use
-D) Vendor support
+- A. To identify privacy risks
+- B. To train employees
+- C. To audit controls
+- D. To document incidents
 
-**99.** What is the main benefit of security culture?
-A) Reduced security costs
-B) Improved security behavior
-C) Better system performance
-D) Simplified procedures
+90. Which communication approach is most effective with executives?
 
-**100.** Which approach provides the best return on security investment?
-A) Risk-based approach
-B) Compliance-based approach
-C) Technology-based approach
-D) Process-based approach
+- A. Technical details
+- B. Risk-based messaging
+- C. Compliance requirements
+- D. Industry standards
+
+91. What is the main purpose of security metrics?
+
+- A. To measure performance
+- B. To train staff
+- C. To document incidents
+- D. To audit controls
+
+92. Which stakeholder has the most influence on security programs?
+
+- A. IT department
+- B. Security team
+- C. Executive leadership
+- D. End users
+
+93. What is the purpose of a security maturity model?
+
+- A. To measure security effectiveness
+- B. To train security personnel
+- C. To document incidents
+- D. To audit controls
+
+94. Which approach is most effective for building security culture?
+
+- A. Policy enforcement
+- B. Technology implementation
+- C. Leadership commitment
+- D. Training programs
+
+95. What is the main purpose of security program evaluation?
+
+- A. To identify improvements
+- B. To train personnel
+- C. To document incidents
+- D. To audit controls
+
+96. Which risk treatment option involves purchasing insurance?
+
+- A. Risk avoidance
+- B. Risk mitigation
+- C. Risk transfer
+- D. Risk acceptance
+
+97. What is the purpose of a security steering committee?
+
+- A. To implement controls
+- B. To provide governance
+- C. To respond to incidents
+- D. To train personnel
+
+98. Which security program component is most critical for success?
+
+- A. Technology
+- B. Processes
+- C. People
+- D. Effectiveness
+
+99. What is the main benefit of security automation in governance?
+
+- A. Reduced costs
+- B. Improved compliance
+- C. Better performance
+- D. Simplified management
+
+100. Which approach is most effective for demonstrating security value?
+
+- A. Technical metrics
+- B. Risk reduction
+- C. Compliance scores
+- D. Cost savings
 
 ---
 
@@ -632,128 +732,137 @@ D) Process-based approach
 
 ### Domain 1: General Security Concepts (Questions 1-12)
 
-1. B - Smart card
-2. C - Availability
-3. A - Preventive
-4. C - Deny all traffic by default
-5. B - Improve user behavior
-6. B - Bollards
-7. B - Detect unauthorized file changes
-8. A - Implicit deny
-9. C - Responds to incidents
-10. D - Something you do
-11. B - Minimize change-related risks
-12. A - Bell-LaPadula
+1. C - Ensuring data is only accessible to authorized individuals
+2. C - Smart card and PIN
+3. B - To provide additional security when primary controls are insufficient
+4. C - Administrative
+5. C - Biometric
+6. D - Non-repudiation
+7. C - Continuous verification of trust
+8. B - Access controls
+9. B - To determine appropriate security controls
+10. C - Multi-factor authentication
+11. B - Identifies security incidents
+12. B - Separation of duties
 
 ### Domain 2: Threats, Vulnerabilities, and Mitigations (Questions 13-34)
 
-13. B - Hacktivist
-14. A - Voice phishing
-15. C - Distributed Denial of Service (DDoS)
-16. B - Risk in third-party components
-17. D - Spyware
-18. B - Activates based on conditions
-19. B - SQL injection
-20. B - Identify potential threats
-21. C - Tailgating
-22. B - An exploit for unknown vulnerabilities
-23. A - Phishing
-24. B - Gather information
-25. B - DNS poisoning
-26. B - A virus that changes its code
-27. C - Smishing
-28. B - Coordinated malicious activities
-29. B - Memory management
-30. B - Collecting login credentials
-31. B - Cross-site scripting (XSS)
-32. B - Stealthy, long-term presence
-33. C - Cryptominer
-34. B - Frequently visited websites
+13. B - Political objectives
+14. C - Phishing
+15. B - It operates in memory without writing to disk
+16. D - Disgruntled employee
+17. A - To identify potential threats
+18. C - Denial of service
+19. B - To manipulate people into divulging information
+20. B - Cross-site scripting (XSS)
+21. B - Creating a false scenario to obtain information
+22. B - DNS poisoning
+23. C - Long-term presence
+24. D - Spyware
+25. D - All of the above
+26. C - Software supply chain attack
+27. B - To inform security decisions
+28. D - All of the above
+29. B - An exploit for unknown vulnerabilities
+30. B - Man-in-the-middle attack
+31. B - To attract and detect attackers
+32. C - Hacktivist
+33. B - Fraudulent email schemes targeting businesses
+34. B - Credential stuffing
 
 ### Domain 3: Security Architecture (Questions 35-52)
 
-35. B - Segmented network
-36. B - Protect web applications
-37. B - Private cloud
-38. B - Centralized network control
-39. B - VPN
-40. B - Device compliance enforcement
-41. C - Data in motion
-42. B - Monitor database access
-43. B - Load balancing
-44. B - Business continuity
-45. C - RAID 5
-46. B - Protect backend servers
-47. B - DMZ
-48. B - Automate infrastructure deployment
-49. A - Hypervisor
-50. B - Better integration
-51. C - Microservices
-52. B - Control network traffic
+35. B - To isolate network resources
+36. B - SSH
+37. B - To act as an intermediary for requests
+38. C - IaaS
+39. B - To provide secure access to internal networks
+40. D - WPA3
+41. B - Secure remote connectivity
+42. C - Application-layer proxy
+43. B - To distribute workload across servers
+44. A - HTTPS
+45. B - Application isolation
+46. C - EAP
+47. B - To protect against application-layer attacks
+48. B - Access control
+49. B - Weak security controls
+50. D - All of the above
+51. B - To enforce security policies on devices
+52. A - Input validation
 
 ### Domain 4: Security Operations (Questions 53-80)
 
-53. B - Preparation
-54. B - Rogue AP detection
-55. B - Maintain system consistency
-56. B - Authenticated scanning
-57. A - Reduce human errors
-58. B - Log correlation
-59. C - Cross-domain authentication
-60. B - Iris scan
-61. B - Temporary access provision
-62. D - Lessons learned
-63. A - Secure evidence handling
-64. B - Behavior-based detection
-65. B - Improve threat detection
-66. B - Penetration testing
-67. B - Monitor security events
-68. A - MTTR
-69. B - Automate security processes
-70. A - SIEM
-71. B - Improve security awareness
-72. C - Snapshot backup
-73. B - Specialized expertise
-74. B - Penetration testing
-75. A - Detect configuration changes
-76. B - Data loss prevention
-77. B - Reduced attack surface
-78. C - Mandatory access control
-79. A - Monitor security metrics
-80. B - Intrusion detection system
+53. B - To minimize damage from security incidents
+54. C - Containment, Eradication, and Recovery
+55. B - To collect and analyze security events
+56. C - Vulnerability scanning
+57. C - Depth of testing
+58. A - Chain of custody
+59. B - To identify security incidents
+60. A - Full backup
+61. B - To respond to disasters
+62. B - Penetration testing
+63. B - To fix security vulnerabilities
+64. B - Deprovisioning
+65. B - Improved response times
+66. B - Anomaly-based detection
+67. B - To actively search for threats
+68. A - RTO (Recovery Time Objective)
+69. B - To maintain security baselines
+70. A - Network DLP
+71. A - To coordinate security tools
+72. C - Remediation
+73. B - Real-time visibility
+74. A - System imaging
+75. B - To document procedures
+76. A - Test restores
+77. A - To measure security effectiveness
+78. B - Incident commander
+79. B - To maintain legal admissibility
+80. C - Audit
 
 ### Domain 5: Security Program Management and Oversight (Questions 81-100)
 
-81. B - Manage security risks
-82. D - Risk sharing
-83. B - Qualitative uses descriptions, quantitative uses numbers
-84. B - Security policy
-85. B - Track identified risks
-86. C - GDPR
-87. B - Identify security gaps
-88. C - External audit
-89. B - Establish performance expectations
-90. B - Data minimization
-91. B - Test user awareness
-92. C - Control effectiveness
-93. B - Provide security oversight
-94. B - Legal requirements
-95. B - Provide consistent practices
-96. D - Simulation training
-97. B - Measure security effectiveness
-98. B - Risk reduction
-99. B - Improved security behavior
-100.  A - Risk-based approach
+81. B - To provide security oversight
+82. B - Quantitative
+83. A - To identify critical business processes
+84. C - HIPAA
+85. B - To change security behavior
+86. C - Security assessments
+87. B - To define security requirements
+88. B - Risk-based budgeting
+89. A - To identify privacy risks
+90. B - Risk-based messaging
+91. A - To measure performance
+92. C - Executive leadership
+93. A - To measure security effectiveness
+94. C - Leadership commitment
+95. A - To identify improvements
+96. C - Risk transfer
+97. B - To provide governance
+98. D - Effectiveness
+99. B - Improved compliance
+100.  B - Risk reduction
 
 ---
 
 ## Score Interpretation
 
-- **90-100 correct (900-1000 points):** Excellent! You're well-prepared for the exam.
-- **83-89 correct (830-890 points):** Good job! You're likely ready but review weak areas.
-- **75-82 correct (750-820 points):** Passing range. Focus on areas of weakness.
-- **Below 75 correct (Below 750 points):** More study needed. Review all domains thoroughly.
+- **900-750 (Pass):** Excellent understanding of Security+ concepts
+- **749-700:** Good understanding, minor gaps in knowledge
+- **699-650:** Adequate understanding, some areas need improvement
+- **649-600:** Basic understanding, significant study needed
+- **Below 600:** Foundational knowledge lacking, extensive study required
 
 ## Study Recommendations
 
-Based on your performance, focus additional study time on the domains where you scored lowest. Use official CompTIA Security+ study materials, practice labs, and additional practice tests to reinforce your knowledge.
+Based on your performance, focus additional study on:
+
+- Lowest scoring domains
+- Questions missed by similar topics
+- Hands-on labs and practical exercises
+- Review official CompTIA Security+ study materials
+- Take additional practice tests
+
+Good luck with your CompTIA Security+ SY0-701 exam preparation!
